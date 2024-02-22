@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-bobo
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0015-tenant/tkrw-pr712-0075-0015-app/devfile-sample-bobo@sha256:28f977eeb61a7e0863b9f2f93d84cddb86b79990efbe341b370efa83f39df2da
         name: my-nodejs
         ports:
         - containerPort: 3001
